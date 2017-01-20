@@ -24,3 +24,8 @@ In this simple example, we integrate Apollo seamlessly with Next by wrapping our
 On initial page load, while on the server and inside `getInitialProps`, we invoke the Apollo method,  [`getDataFromTree`](http://dev.apollodata.com/react/server-side-rendering.html#getDataFromTree). This method returns a promise; at the point in which the promise resolves, our Apollo Client store is completely initialized.
 
 This example relies on [graph.cool](graph.cool) for its GraphQL backend.
+
+## Thoughts
+
+* Think about design for Markdown integration
+* Use localstorage and operational transformations

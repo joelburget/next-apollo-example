@@ -8,6 +8,5 @@ export default withData((props) => (
   <App>
     <Header pathname={props.url.pathname} />
     <Submit />
-    <PostList />
   </App>
 ))

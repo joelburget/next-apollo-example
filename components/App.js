@@ -2,7 +2,7 @@ export default (props) => (
   <main>
     {props.children}
     <footer>
-      Made by <a href='http://twitter.com/adamSoffer'>@adamSoffer</a>
+      Made by <a href='http://twitter.com/dino_joel'>@dino_joel</a>
     </footer>
     <style jsx global>{`
       * {
